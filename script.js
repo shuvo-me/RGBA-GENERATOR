@@ -10,7 +10,7 @@ function generateColor(){
 }
 
 function copyColor(){
-    navigator.clipboard.writeText(color.innerHTML).then(()=> alert('Done!'));
+    navigator.clipboard.writeText(color.innerHTML).then(()=> alert('Copied!'));
     // alert("copied! ", color.innerHTML)
 }
 
